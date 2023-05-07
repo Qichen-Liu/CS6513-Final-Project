@@ -5,6 +5,7 @@
 2. numpy
 3. plotly
 4. matplotlib
+5. statsmodels
 
 # Abstract:
 In the past few years, the COVID-19 pandemic has had a significant impact on global economic activities and
