@@ -39,7 +39,7 @@ fig1.write_html("WFH Full pay day percentage.html")
 # Show the plot
 fig1.show()
 
-fig2 = px.histogram(wfh_full_paid_day_after_2015_before_2020, x='date', y='WFH_share', nbins=4, title='WFH full pay day histogram before Covid')
+fig2 = px.histogram(wfh_full_paid_day_after_2015_before_2020, x='date', y='WFH_share', nbins=16, title='WFH full pay day histogram before Covid')
 fig2.write_html("WFH Full pay day percentage before Covid.html")
 # Show the plot
 fig2.show()
