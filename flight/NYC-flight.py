@@ -2,11 +2,11 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df2019 = pd.read_csv('/Users/qichenliu/Desktop/6513project/T_T100D_MARKET_US_CARRIER_ONLY 2019.csv')
-df2020 = pd.read_csv('/Users/qichenliu/Desktop/6513project/T_T100D_MARKET_US_CARRIER_ONLY 2020.csv')
-df2021 = pd.read_csv('/Users/qichenliu/Desktop/6513project/T_T100D_MARKET_US_CARRIER_ONLY 2021.csv')
-df2022 = pd.read_csv('/Users/qichenliu/Desktop/6513project/T_T100D_MARKET_US_CARRIER_ONLY 2022.csv')
-df2023 = pd.read_csv('/Users/qichenliu/Desktop/6513project/T_T100D_MARKET_US_CARRIER_ONLY 2023.csv')
+df2019 = pd.read_csv('T_T100D_MARKET_US_CARRIER_ONLY 2019.csv')
+df2020 = pd.read_csv('T_T100D_MARKET_US_CARRIER_ONLY 2020.csv')
+df2021 = pd.read_csv('T_T100D_MARKET_US_CARRIER_ONLY 2021.csv')
+df2022 = pd.read_csv('T_T100D_MARKET_US_CARRIER_ONLY 2022.csv')
+df2023 = pd.read_csv('T_T100D_MARKET_US_CARRIER_ONLY 2023.csv')
 
 filtered_df2019 = df2019.loc[(df2019['DEST_CITY_NAME'] == 'New York, NY') & (df2019['PASSENGERS'] != 0)]
 filtered_df2020 = df2020.loc[(df2020['DEST_CITY_NAME'] == 'New York, NY') & (df2020['PASSENGERS'] != 0)]

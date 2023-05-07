@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('/Users/qichenliu/Desktop/6513project/industry_GDP.csv')
+df = pd.read_csv('industry_GDP.csv')
 df = df.apply(lambda x: x.str.strip() if x.dtype == "object" else x)
 
 industry = ['All industries', 'Construction', 'Air transportation', 'Rail transportation',

@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('/Users/qichenliu/Desktop/6513project/New_York_State_Statewide_COVID-19_Vaccination_Data_by_County.csv')
+df = pd.read_csv('New_York_State_Statewide_COVID-19_Vaccination_Data_by_County.csv')
 filtered_df = df.loc[df['Region'] == 'New York City'].copy()  # make a copy to avoid modifying original DataFrame
 filtered_df.loc[:, 'Report as of'] = pd.to_datetime(filtered_df['Report as of'], format='%m/%d/%y')  # use .loc to modify original DataFrame
 
