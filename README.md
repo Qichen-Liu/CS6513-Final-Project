@@ -1,12 +1,12 @@
 # CS6513-Final-Project
 
-Required Python Packages:
+# Required Python Packages:
 1. pandas
 2. numpy
 3. plotly
 4. matplotlib
 
-Abstract:
+# Abstract:
 In the past few years, the COVID-19 pandemic has had a significant impact on global economic activities and
 people's daily lives. New York City, the most economically developed region in the world, also experienced 
 unprecedented changes in economic and employment activities. In this project, we aim to leverage big data technology 
